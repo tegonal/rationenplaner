@@ -1,17 +1,16 @@
 #!/usr/bin/env bash
 #
-#    __                          __
-#   / /____ ___ ____  ___  ___ _/ /       This script is provided to you by https://github.com/ORG_NAME_GITHUB/PROJECT_NAME_GITHUB
-#  / __/ -_) _ `/ _ \/ _ \/ _ `/ /        Copyright YEAR ORG_NAME <ORG_EMAIL>
-#  \__/\__/\_, /\___/_//_/\_,_/_/         It is licensed under LICENSE_FULL_NAME
-#         /___/                           Please report bugs and contribute back your improvements
+#  This script is provided to you by https://github.com/fibl/rationenplaner
+#  Copyright 2026 Forschungsinstitut für biologischen Landbau (FiBL) <info@fibl.org>
+#  It is licensed under European Union Public Licence v. 1.2
+#  Please report bugs and contribute back your improvements
 #
 #                                         Version: v0.1.0-SNAPSHOT
 ###################################
 set -euo pipefail
 shopt -s inherit_errexit
 unset CDPATH
-PROJECT_NAME_UPPER_LATEST_VERSION="main"
+RATIONENPLANER_LATEST_VERSION="main"
 
 if ! [[ -v scriptsDir ]]; then
 	scriptsDir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]:-$0}")" >/dev/null && pwd 2>/dev/null)/../../../scripts"
@@ -27,7 +26,7 @@ function pull_hook_before() {
 	local -ra params=(_currentTag _tag source _target)
 	parseFnArgs params "$@"
 
-	replaceTegonalGhCommonsPlaceholders "$source" "PROJECT_NAME" "$PROJECT_NAME_UPPER_LATEST_VERSION" \
-		"ORG_NAME" "ORG_EMAIL" "ORG_NAME_GITHUB" "PROJECT_NAME_GITHUB"
+	replaceTegonalGhCommonsPlaceholders "$source" "Rationenplaner" "$RATIONENPLANER_LATEST_VERSION" \
+		"Forschungsinstitut für biologischen Landbau (FiBL)" "info@fibl.org" "fibl" "rationenplaner"
 }
 pull_hook_before "$@"
