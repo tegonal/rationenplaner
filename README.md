@@ -30,13 +30,17 @@ version: [README of v0.1.0](https://github.com/fibl/rationenplaner/tree/main/REA
 **Table of Contents**
 
 - [Installation](#installation)
+- [Technical Documentation](#technical-documentation)
 - [Contributors and contribute](#contributors-and-contribute)
 - [License](#license)
 
 # Installation
 
-You can navigate to `domain needs to be defined by FiBL` to access the web-app, no installation required. 
-Download the static website if you want to use it offline/run on your own machine.
+You can navigate to `domain needs to be defined by FiBL` to access the web-app, no installation required.
+
+# Technical Documentation
+
+You find an arc42 style architecture documentation in [docs/architecture](./docs/architecture/architecture.md)
 
 # Contributors and contribute
 
