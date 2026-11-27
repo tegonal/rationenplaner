@@ -1,0 +1,65 @@
+Parameter;English Term;English Category;German Term;German Category
+TS;Dry matter;Proximate constituents;Trockensubstanz;Rohnährstoffe
+RA;Crude ash;Proximate constituents;Rohasche;Rohnährstoffe
+RP;Crude protein;Proximate constituents;Rohprotein;Rohnährstoffe
+RL;Crude fat;Proximate constituents;Rohfett;Rohnährstoffe
+RF;Crude fibre;Proximate constituents;Rohfaser;Rohnährstoffe
+NfE;Nitrogen-free extract;Proximate constituents;Stickstofffreie Extraktstoffe;Rohnährstoffe
+VES;Digestible energy (swine);Energy;Verdauliche Energie Schwein;Energie
+VPS;Digestible protein (swine);Digestible nutrients;Verdauliches Protein Schwein;Verdaulicher Rohnährstoff
+Lys;Lysine;Amino acids;Lysin;Aminosäuren
+Met;Methionine;Amino acids;Methionin;Aminosäuren
+Cys;Cystine;Amino acids;Cystin;Aminosäuren
+Thr;Threonine;Amino acids;Threonin;Aminosäuren
+Trp;Tryptophan;Amino acids;Tryptophan;Aminosäuren
+Ile;Isoleucine;Amino acids;Isoleucin;Aminosäuren
+Leu;Leucine;Amino acids;Leucin;Aminosäuren
+Phe;Phenylalanine;Amino acids;Phenylalanin;Aminosäuren
+Tyr;Tyrosine;Amino acids;Tyrosin;Aminosäuren
+Val;Valine;Amino acids;Valin;Aminosäuren
+Arg;Arginine;Amino acids;Arginin;Aminosäuren
+His;Histidine;Amino acids;Histidin;Aminosäuren
+Met+Cys;Methionine + cystine (total);Amino acids;Summe Methionin & Cystin;Aminosäuren
+Phe+Tyr;Phenylalanine + tyrosine (total);Amino acids;Summe Phenylalanin & Tyrosin;Aminosäuren
+SAT;Saturated fatty acids;Fatty acids;Saturated fatty acid - gesättigte Fettsäuren;Fettsäuren
+MUFA;Monounsaturated fatty acids;Fatty acids;Monounsaturated fatty acid - einfach ungesättigte Fettsäuren;Fettsäuren
+PUFA;Polyunsaturated fatty acids;Fatty acids;Polyunsaturated fatty acid - mehrfach ungesättigte Fettsäuren;Fettsäuren
+PMI;PUFA–MUFA index;Fat quality assessment parameters;PUFA-MUFA-Index;Parameter zur Abschätzung der Fettqualität
+PUI;PUFA index;Fat quality assessment parameters;PUFA-Index;Parameter zur Abschätzung der Fettqualität
+JZI;Iodine value index;Fat quality assessment parameters;Jodzahl-Index;Parameter zur Abschätzung der Fettqualität
+Ca;Calcium;Minerals;Calcium;Mineralstoffe
+P;Phosphorus;Minerals;Phosphor;Mineralstoffe
+Na;Sodium;Minerals;Natrium;Mineralstoffe
+VDP;Digestible phosphorus;Digestible minerals;Verdaulicher Phosphor;Verdauliche Mineralstoffe
+vLys;Digestible lysine;Digestible amino acids;verdauliches Lysin;Verdauliche Aminosäuren
+vMet;Digestible methionine;Digestible amino acids;verdauliches Methionin;Verdauliche Aminosäuren
+vCys;Digestible cystine;Digestible amino acids;verdauliches Cystin;Verdauliche Aminosäuren
+vThr;Digestible threonine;Digestible amino acids;verdauliches Threonin;Verdauliche Aminosäuren
+vTrp;Digestible tryptophan;Digestible amino acids;verdauliches Tryptophan;Verdauliche Aminosäuren
+vIle;Digestible isoleucine;Digestible amino acids;verdauliches Isoleucin;Verdauliche Aminosäuren
+vLeu;Digestible leucine;Digestible amino acids;verdauliches Leucin;Verdauliche Aminosäuren
+vPhe;Digestible phenylalanine;Digestible amino acids;verdauliches Phenylalanin;Verdauliche Aminosäuren
+vTyr;Digestible tyrosine;Digestible amino acids;verdauliches Tyrosin;Verdauliche Aminosäuren
+vVal;Digestible valine;Digestible amino acids;verdauliches Valin;Verdauliche Aminosäuren
+vArg;Digestible arginine;Digestible amino acids;verdauliches Arginin;Verdauliche Aminosäuren
+vHis;Digestible histidine;Digestible amino acids;verdauliches Histidin;Verdauliche Aminosäuren
+vMet+Cys;Digestible methionine + digestible cystine (total);Digestible amino acids;Summe verdauliches Methionin & verdauliches Cystin;Verdauliche Aminosäuren
+vPhe+Tyr;Digestible phenylalanine + digestible tyrosine (total);Digestible amino acids;Summe verdauliches Phenylalanin & verdauliches Tyrosin;Verdauliche Aminosäuren
+Fe nat;Native iron;Trace elements;natives Eisen;Spurenelemente
+Cu nat;Native copper;Trace elements;natives Kupfer;Spurenelemente
+Zn nat;Native zinc;Trace elements;natives Zink;Spurenelemente
+Mn nat;Native manganese;Trace elements;natives Mangan;Spurenelemente
+Se nat;Native selenium;Trace elements;natives Selen;Spurenelemente
+Fe zuges;Iron added in the premix;Trace elements;im Premix zugesetztes Eisen;Spurenelemente
+Cu zuges;Copper added in the premix;Trace elements;im Premix zugesetzter Kupfer;Spurenelemente
+Zn zuges;Zinc added in the premix;Trace elements;im Premix zugesetztes Zink;Spurenelemente
+Mn zuges;Manganese added in the premix;Trace elements;im Premix zugesetztes Mangan;Spurenelemente
+Se zuges;Selenium added in the premix;Trace elements;im Premix zugesetztes Selen;Spurenelemente
+Fe total;Total iron (native + added);Trace elements;Gesamteisen (Summe aus nativ und zugesetzt);Spurenelemente
+Cu total;Total copper;Trace elements;Gesamtkupfer;Spurenelemente
+Zn total;Total zinc;Trace elements;Gesamtzink;Spurenelemente
+Mn total;Total manganese;Trace elements;Gesamtmangan;Spurenelemente
+Se total;Total selenium;Trace elements;Gesamtselen;Spurenelemente
+Vit. A zuges;Vitamin A added in the premix;Vitamins;im Premix zugesetztes Vitamin A;Vitamine
+Vit. D3 zuges;Vitamin D3 added in the premix;Vitamins;im Premix zugesetztes Vitamin D3;Vitamine
+Vit. E zuges;Vitamin E added in the premix;Vitamins;im Premix zugesetztes Vitamin E;Vitamine
